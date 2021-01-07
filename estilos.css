@@ -1,3 +1,20 @@
 body{
-    background-color: rgb(44, 42, 165);
+    background-color: rgb(207, 207, 207);
+}
+.container-box{
+    background-color: cadetblue;
+}
+.container-box2{
+    background-color: cyan;
+}
+/*Se indica que el hijo de container-box2 se va a pintar del color indicado*/
+.container-box2 > h2{
+    color: darkblue;
+}
+h2{
+    color: black;
+}
+/*Esta es otra manera de hacer el cambio en H2*/
+.container-box h2 {
+    color: blueviolet;
 }
