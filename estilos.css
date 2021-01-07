@@ -1,3 +1,7 @@
 body{
     background-color: rgb(44, 42, 165);
 }
+header h2 {
+    color: chartreuse;
+    background-color: cyan;
+}
